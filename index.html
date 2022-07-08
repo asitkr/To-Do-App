@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="row">TO DO APP</h1>
+        <br><br>
+        <div class="row">
+            <form class="form-inline col-sm-offset-3">
+                <div class="input-group">
+                    <input type="text" class="form-control text" style="width: 30vw" id="text" placeholder="Enter text here...">
+                </div>
+                <div class="form-group">
+                    <input type="button" value="Add" id="add_list" class="btn btn-primary form-control" style="width: 10vw" onclick="add_item()">
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <ul id="list_item"></ul>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
